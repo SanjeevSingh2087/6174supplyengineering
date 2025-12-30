@@ -1,0 +1,34 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blueprint Grid Background -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#E2E8F0" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="mainGradient" x1="20" y1="20" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Hexagon Frame -->
+  <path d="M100 10 L190 55 V145 L100 190 L10 145 V55 L100 10Z" stroke="#0F172A" stroke-width="8" fill="none"/>
+  
+  <!-- Internal '6174' Kaprekar Constant / Circuit Maze conceptualization -->
+  <!-- Top Left Quadrant -->
+  <path d="M40 70 H80 V130" stroke="#0F172A" stroke-width="6" stroke-linecap="square"/>
+  
+  <!-- Top Right Quadrant -->
+  <path d="M160 70 H120 V130" stroke="#0F172A" stroke-width="6" stroke-linecap="square"/>
+
+  <!-- Center Connection -->
+  <path d="M70 100 H130" stroke="#EF4444" stroke-width="6"/>
+  
+  <!-- Nodes -->
+  <circle cx="40" cy="70" r="6" fill="#0F172A"/>
+  <circle cx="160" cy="70" r="6" fill="#0F172A"/>
+  <circle cx="80" cy="130" r="6" fill="#0F172A"/>
+  <circle cx="120" cy="130" r="6" fill="#0F172A"/>
+
+  <!-- Text Label (Optional if used standalone, but good for branding) -->
+  <text x="100" y="170" font-family="monospace" font-size="20" font-weight="bold" fill="#0F172A" text-anchor="middle" letter-spacing="2">6174</text>
+</svg>
